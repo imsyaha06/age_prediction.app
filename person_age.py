@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the trained age prediction model
-model = tf.keras.models.load_model("age_prediction_model4.h5")
+model = tf.keras.models.load_model("age_prediction_model3.h5")
 
 # Define image preprocessing function
 def preprocess_image(image):
